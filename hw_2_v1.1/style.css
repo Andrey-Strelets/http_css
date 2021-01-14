@@ -1,0 +1,49 @@
+/*Первый уровень*/
+
+blockquote {
+	color: green;
+}
+
+
+/*Второй уровень*/
+
+a[href^='https://'] {
+	color: red;
+}
+
+.list > li:last-child {
+	background: green;
+}
+.holder ul+p{
+	font-size: 26px;
+}
+
+/*Третий уровень*/
+
+.text-box  h3:first-child {
+	color: pink;
+}
+#greycol {
+	color: grey;
+}
+
+.text-box div p:last-child {
+	color: red
+}
+.text-box p:nth-last-child(2){
+	color: green;
+}
+.text-box .yellow {
+	color: yellow;     
+}
+
+
+.bg-box {
+	width: auto;
+	height: 700px;
+	background:url(image/grass.png) left bottom / auto 200px repeat-x,
+			   url(image/house.jpg) center center/ 500px 300px no-repeat,
+			   url(image/lamp.png) left top / 50px 50px repeat-x,
+			   url(image/donut.png) right top / 50px 50px repeat-y,
+			   url(image/Ёжик.png) left top / 50px 50px repeat-y border-box, #008000;
+}

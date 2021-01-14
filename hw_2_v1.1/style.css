@@ -45,5 +45,5 @@ a[href^='https://'] {
 			   url(image/house.jpg) center center/ 500px 300px no-repeat,
 			   url(image/lamp.png) left top / 50px 50px repeat-x,
 			   url(image/donut.png) right top / 50px 50px repeat-y,
-			   url(image/Ёжик.png) left top / 50px 50px repeat-y border-box, #008000;
+			   url(image/Ёжик.png) left top / 50px 50px repeat-y, #008000;
 }
